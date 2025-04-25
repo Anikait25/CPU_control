@@ -17,5 +17,11 @@ Additionally, the module controls a 7-segment LED display (`o_led`), where:
 - If `Y = 0`, the LED display shows a "0".
 - If `Y = 1`, the LED display shows a "1".
 
-## File Structure
+### Output
+- **AM**: Simply mirrors the value of `A`. If `A = 1`, the output `AM` will also be `1`, indicating morning. If `A = 0`, `AM = 0`, indicating afternoon.
+
+## Author
+
+Anikait Sarkar  
+RSA SEIP VLSI Trainee
 
